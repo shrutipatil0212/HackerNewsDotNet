@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZakP49KJQ8=",
+  "dgSpecHash": "Bcd/itnxpWQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
+  "projectFilePath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RENT IT\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\RENT IT\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\8.0.5\\microsoft.aspnetcore.mvc.testing.8.0.5.nupkg.sha512",
@@ -40,6 +40,8 @@
     "C:\\Users\\RENT IT\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\RENT IT\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\RENT IT\\.nuget\\packages\\moq\\4.20.70\\moq.4.20.70.nupkg.sha512",
+    "C:\\Users\\RENT IT\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\RENT IT\\.nuget\\packages\\richardszalay.mockhttp\\7.0.0\\richardszalay.mockhttp.7.0.0.nupkg.sha512",
     "C:\\Users\\RENT IT\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\RENT IT\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\RENT IT\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

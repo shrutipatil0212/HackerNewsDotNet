@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI.Tests\\HackerNewsAPI.Tests.csproj": {}
+    "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsApi.Tests\\HackerNewsApi.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI.Tests\\HackerNewsAPI.Tests.csproj": {
+    "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsApi.Tests\\HackerNewsApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI.Tests\\HackerNewsAPI.Tests.csproj",
-        "projectName": "HackerNewsAPI.Tests",
-        "projectPath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI.Tests\\HackerNewsAPI.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsApi.Tests\\HackerNewsApi.Tests.csproj",
+        "projectName": "HackerNewsApi.Tests",
+        "projectPath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsApi.Tests\\HackerNewsApi.Tests.csproj",
         "packagesPath": "C:\\Users\\RENT IT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI.Tests\\obj\\",
+        "outputPath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj": {
-                "projectPath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj"
+              "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsApi\\HackerNewsApi.csproj": {
+                "projectPath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsApi\\HackerNewsApi.csproj"
               }
             }
           }
@@ -54,9 +54,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
+            "FluentAssertions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -66,13 +70,17 @@
               "target": "Package",
               "version": "[4.20.70, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[6.0.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.8.0, )"
+              "version": "[2.8.1, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
@@ -99,14 +107,14 @@
         }
       }
     },
-    "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj": {
+    "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
+        "projectUniqueName": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
         "projectName": "HackerNewsAPI",
-        "projectPath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
+        "projectPath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
         "packagesPath": "C:\\Users\\RENT IT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\obj\\",
+        "outputPath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -156,6 +164,14 @@
             "Moq": {
               "target": "Package",
               "version": "[4.20.70, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RichardSzalay.MockHttp": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

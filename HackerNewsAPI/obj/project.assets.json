@@ -743,6 +743,32 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "RichardSzalay.MockHttp/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RichardSzalay.MockHttp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RichardSzalay.MockHttp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -2298,6 +2324,53 @@
         "readme.md"
       ]
     },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "RichardSzalay.MockHttp/7.0.0": {
+      "sha512": "QwnauYiaywp65QKFnP+wvgiQ2D8Pv888qB2dyfd7MSVDF06sIvxqASenk+RxsWybyyt+Hu1Y251wQxpHTv3UYg==",
+      "type": "package",
+      "path": "richardszalay.mockhttp/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/RichardSzalay.MockHttp.dll",
+        "lib/net5.0/RichardSzalay.MockHttp.xml",
+        "lib/net6.0/RichardSzalay.MockHttp.dll",
+        "lib/net6.0/RichardSzalay.MockHttp.xml",
+        "lib/netstandard1.1/RichardSzalay.MockHttp.dll",
+        "lib/netstandard1.1/RichardSzalay.MockHttp.xml",
+        "lib/netstandard2.0/RichardSzalay.MockHttp.dll",
+        "lib/netstandard2.0/RichardSzalay.MockHttp.xml",
+        "richardszalay.mockhttp.7.0.0.nupkg.sha512",
+        "richardszalay.mockhttp.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -2715,6 +2788,8 @@
       "Microsoft.AspNetCore.Mvc.Testing >= 8.0.5",
       "Microsoft.Extensions.Caching.Memory >= 8.0.0",
       "Moq >= 4.20.70",
+      "Newtonsoft.Json >= 13.0.1",
+      "RichardSzalay.MockHttp >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "xunit >= 2.8.0"
     ]
@@ -2726,11 +2801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
       "projectName": "HackerNewsAPI",
-      "projectPath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
+      "projectPath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\HackerNewsAPI.csproj",
       "packagesPath": "C:\\Users\\RENT IT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RENT IT\\source\\repos\\HackerNewsAPI\\HackerNewsAPI\\obj\\",
+      "outputPath": "C:\\Users\\RENT IT\\HackerNewsAPI\\HackerNewsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2780,6 +2855,14 @@
           "Moq": {
             "target": "Package",
             "version": "[4.20.70, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "RichardSzalay.MockHttp": {
+            "target": "Package",
+            "version": "[7.0.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

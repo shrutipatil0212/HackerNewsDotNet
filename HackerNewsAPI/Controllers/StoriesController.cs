@@ -4,7 +4,7 @@ using HackerNewsAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/[controller]/GetNewStories")]
 public class StoriesController : ControllerBase
 {
     private readonly IHackerNewsService _hackerNewsService;
@@ -17,7 +17,7 @@ public class StoriesController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<Story>>> GetTopStories()
     {
-        var stories = await _hackerNewsService.GetTopStoriesAsync();
+        var stories = await _hackerNewsService.GetNewStoriesAsync();
         return Ok(stories);
     }
 }

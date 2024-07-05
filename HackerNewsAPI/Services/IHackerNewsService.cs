@@ -4,5 +4,5 @@ using HackerNewsAPI.Models;
 
 public interface IHackerNewsService
 {
-    Task<IEnumerable<Story>> GetTopStoriesAsync();
+    Task<IEnumerable<Story>> GetNewStoriesAsync();
 }
