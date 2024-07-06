@@ -1,7 +1,7 @@
 Hacker News API created in .NET
 
-Using the Hacker News, created a API that allows users to fetch the newest stories from the
-feed.Used C# .NET Core back-end and restful API.
+Using the Hacker News - https://github.com/HackerNews/API, created a API that allows users to fetch the newest stories from the
+feed. https://hacker-news.firebaseio.com/v0/newstories.json?print=pretty Used C# .NET Core back-end and restful API.
 
 ## Features
 
@@ -11,7 +11,7 @@ feed.Used C# .NET Core back-end and restful API.
 
 ## Installation
 
-Download the zip folder of the repository or kindly clone it using teh URL.
+Download the zip folder of the repository or kindly clone it using the URL - https://github.com/shrutipatil0212/HackerNewsDotNet.git
 
 ## Usage
 
@@ -23,4 +23,4 @@ dotnet run
 
 ## Contributing
 
-Once ran successfully, you will see Swagger window open up.
+Once ran successfully, you will see Swagger window open up. Click on 'Try It Out' anf then Execute. You will get the result with newest Stories fetched
